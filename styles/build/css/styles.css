@@ -1,0 +1,13 @@
+.pHover {
+  background: orangered;
+  padding: 20px;
+  width: 250px;
+  transition: 0.4s; }
+
+.pHover:hover {
+  transform: scale(1.2); }
+
+#main {
+  width: 90%;
+  background-color: rgba(0, 255, 0, 0.3);
+  padding: 1em; }
