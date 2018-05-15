@@ -1,3 +1,6 @@
+$facebook-blue: #3b5998;
+$twitter-lightblue: #1da1f2;
+$android: #a4c639;
 .pHover{
 	background: orangered;
 	padding: 20px;
@@ -17,11 +20,13 @@
 	margin:0 auto;
 	text-align:center;
 }
-
-ul{
-	list-style-type: none;
+.fa-facebook-square{
+	color:$facebook-blue;
+}
+.fa-twitter{
+	color: $twitter-lightblue;
+}
+.fa-android{
+	color: $android;
 }
 
-ul li{
-	margin-bottom: 1em;
-}
